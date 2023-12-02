@@ -43,8 +43,7 @@ p{
 .heading{
     display: flex;
     font-size: 28px;
-    color: hsl(292, 42%, 14%);
-    
+    color: hsl(292, 42%, 14%);   
 }
 
 .heading img{
