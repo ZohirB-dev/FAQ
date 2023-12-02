@@ -1,0 +1,68 @@
+body{
+    background-color: hsl(275, 100%, 97%);
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+p{
+    color: hsl(292, 16%, 49%);
+    display: none;
+}
+
+.background-image {
+    height: 400px; /* Set the width to cover one-third of the screen */
+    background-image: url('assets/images/background-pattern-desktop.svg'); /* Replace 'your-image.jpg' with your image path */
+    background-size: auto 100%; /* Cover one-third horizontally, full height vertically */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.page-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.card{
+    width: 600px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.heading{
+    display: flex;
+    font-size: 28px;
+    color: hsl(292, 42%, 14%);
+    
+}
+
+.heading img{
+    margin-right: 20px;
+}
+
+.seperator{
+    height: 1px;
+    background-color: rgba(203, 202, 202, 0.300);
+}
+
+.block-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: hsl(292, 42%, 14%);
+}
+
+.block-heading:hover{
+    color: hsl(293, 100%, 36%);
+    cursor: pointer;
+}
+
